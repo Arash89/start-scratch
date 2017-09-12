@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 class App extends Component {
 	render () {
 		console.log("Salam");
-		return (<h1>
-			In The Name of GOD
+		return (<h1 style={{textAlign: "center"}}>
+				In The Name of GOD
 				</h1>);
 	}
 }

@@ -1,8 +1,9 @@
+var webpack = require('webpack');
 const {resolve} = require('path');
 
 module.exports = () => {
 	return {
-		context: resolve('src'),
+		context: resolve(__dirname, 'src'),
 		entry: './index.js',
 		output: {
 			filename: 'bundle.js',
