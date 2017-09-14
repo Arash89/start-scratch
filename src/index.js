@@ -1,13 +1,17 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
 
-class App extends Component {
-	render () {
-		console.log("Salam");
-		return (<h1 style={{textAlign: "center"}}>
-				In The Name of GOD
-				</h1>);
-	}
+export default class App extends Component {
+    constuctor(props) {
+        super(props);
+    }
+
+    render() {
+        // console.log("Salam");
+        return (<h1 style={{ textAlign: "center" }}>
+                In The Name of GOD
+        </h1>);
+    }
 }
 
-ReactDOM.render(<App />, document.getElementById('container'));
+ReactDOM.render(<App />, document.getElementById("container"));

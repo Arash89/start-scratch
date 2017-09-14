@@ -18,4 +18,3 @@ module.exports = () => {
 		watch: true
 	}
 }
-console.log('Salam', resolve(__dirname, 'src'));
