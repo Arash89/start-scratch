@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 
 export default class App extends Component {
-    constuctor(props) {
+    constructor(props) {
         super(props);
     }
 
