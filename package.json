@@ -6,6 +6,7 @@
   "scripts": {
     "test": "react-scripts test --env=jsdom",
     "testme": "jest",
+    "cov": "jest --coverage",
     "dev": "webpack-dev-server",
     "dev:build": "webpack",
     "flow": "flow"
