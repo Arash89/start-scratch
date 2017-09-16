@@ -21,9 +21,4 @@ describe('Test Arash', () => {
 	});
 
 
-	it('Sure it is ;)', () => {
-		expect('hi').to.equal('hi');
-	});
-
-
 });
