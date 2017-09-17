@@ -1,5 +1,5 @@
-// 
-
+const webpackConfig = require('./webpack.config')();
+const fileGlob= '**/*.test.js';
 
 module.exports = config => {
   config.set({
@@ -8,6 +8,10 @@ module.exports = config => {
     files: [
       '**/*.test.js'
     ],
+    preprocessors: {
+        [fileGlob]: ['webpack']
+    },
+    webpack: webpackConfig,
     exclude: ['node_modules/**/*.test.js'],
     reporters: ['progress'],
     port: 9876,
